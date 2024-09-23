@@ -75,24 +75,34 @@ ul li a:hover{
 .info a:hover{
     background: rgb(59,174,209);
 }
+
+.icons a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5%;
+    margin-right: 0%;
+}
+
+.icons ion-icons{
+    margin-left: 70%;
+    color: black;
+    margin-right: 60px;
+    font-size: 200px;
+}
+.icons ion-icons:hover{
+    color: aqua;
+
+}
 .image{
     width: 30px;
-    height: 60px;
+    height: 60%;
     position: absolute;
     right: 100px;
     bottom: 0;
-
 }
 .image img{
-    position: absolute;
+    position: relative;
     height: 140px;
     left: 40%;
-    transform: translate(-55%);
-    bottom: 0;
-}
-.icons ion-icons{
-    margin-left: 7%;
-    color: black;
-    margin-right: 60px;
-    font-size: 40px;
+    transform:translate(-50%)
 }
