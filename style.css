@@ -4,7 +4,7 @@
 }
 .main{
     width: 100%;
-    background: url(images/chh.jpeg);
+    background: url(images/chhr.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -74,4 +74,25 @@ ul li a:hover{
 }
 .info a:hover{
     background: rgb(59,174,209);
+}
+.image{
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+
+}
+.image img{
+    position: absolute;
+    height: 140px;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+}
+.icons ion-icons{
+    margin-left: 7%;
+    color: black;
+    margin-right: 60px;
+    font-size: 40px;
 }
