@@ -93,16 +93,3 @@ ul li a:hover{
     color: aqua;
 
 }
-.image{
-    width: 30px;
-    height: 60%;
-    position: absolute;
-    right: 100px;
-    bottom: 0;
-}
-.image img{
-    position: relative;
-    height: 140px;
-    left: 40%;
-    transform:translate(-50%)
-}
